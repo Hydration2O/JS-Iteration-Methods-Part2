@@ -45,8 +45,6 @@ for (let i=0;i<expenseArr.length;i++) totalExpense=totalExpense+expenseArr[i][1]
 console.log(`${totalIncome}`);
 console.log(`${totalExpense}`);
 
-
-
 /*****************************************************************
 Part 3: Net Analysis
 
@@ -57,5 +55,7 @@ Task 6) Identify and create a new array with transactions (both incomes and expe
        Output 6) [["income", 1000], ["income", 1500], ["expense", 500], ["income", 700]]
 
 ******************************************************************/
+let netTotal= totalIncome-totalExpense;
+console.log(`${netTotal}`);
 
 // Note: Use appropriate JavaScript array iteration methods such as filter, reduce, etc., to achieve the desired output for each task.
